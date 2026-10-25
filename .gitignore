@@ -1,0 +1,31 @@
+# Environment variables & secrets (MATCHES ALL SUBDIRECTORIES)
+.env
+.env.*
+*.env
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# IDE & Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Large / local log files
+*.log
